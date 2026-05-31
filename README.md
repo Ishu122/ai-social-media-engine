@@ -1,37 +1,43 @@
-# AI Social Media Engine ✨
+# AI Social Media Engine v2 ✨
 
-Paste any content and instantly generate platform-specific posts for LinkedIn, Twitter/X, Instagram, and Newsletter — powered by Claude AI.
+> Paste any content → get platform-specific posts, viral scores, image prompts & a posting schedule — powered by Claude AI.
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red) ![Claude](https://img.shields.io/badge/Claude-Sonnet_4-orange)
+
+---
 
 ## Features
-- Supports 4 platforms: LinkedIn, Twitter/X, Instagram, Newsletter
-- 4 tone options: Casual, Professional, Bold & punchy, Storytelling
-- Generate all platforms at once or one at a time
-- Copy-paste ready outputs
+
+| Feature | Description |
+|---|---|
+| 📝 Posts | LinkedIn, Twitter/X thread, Instagram caption, Newsletter snippet |
+| 🔥 Viral score | AI-predicted engagement score per platform + improvement tips |
+| 🎨 Image prompts | Ready-to-use Midjourney / DALL-E / Ideogram prompts |
+| 📅 Schedule | AI-recommended posting calendar — export as CSV |
+| 🎯 Audience targeting | Tailor content to founders, devs, B2B, or general public |
+| 🎨 Tone selector | Casual, Professional, Bold & punchy, Storytelling |
+
+---
 
 ## Setup
 
-1. Clone the repo
 ```bash
 git clone https://github.com/Ishu122/ai-social-media-engine
 cd ai-social-media-engine
-```
-
-2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
-
-3. Run the app
-```bash
 streamlit run app.py
 ```
 
-4. Enter your [Anthropic API key](https://console.anthropic.com) in the app and start generating!
+Enter your [Anthropic API key](https://console.anthropic.com) in the app and start generating.
 
-## Tech Stack
-- Python
+---
+
+## Tech stack
+- Python 3.9+
 - Streamlit
-- Anthropic Claude API (claude-sonnet-4-20250514)
+- Anthropic Claude API (`claude-sonnet-4-20250514`)
+
+---
 
 ## Built by
-[Ishu Aggarwal](https://linkedin.com/in/ishu-aggarwal-9008b5210)
+[Ishu Aggarwal](https://linkedin.com/in/ishu-aggarwal-9008b5210) — Data & Operations | Founder's Office
